@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: checkboxes
+  - type: radio
     id: usage
     attributes:
       label: EPPlus usage
