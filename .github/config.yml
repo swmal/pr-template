@@ -1,0 +1,27 @@
+# This is a config.yml file for GitHub issue templates
+# You can use this file to customize the template chooser
+# For more information, see https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+
+# Disable blank issues
+blank_issues_enabled: false
+
+# Add a link to an external site for creating issues
+contact_links:
+  - name: Report a security vulnerability
+    url: https://example.com/security
+    about: Please use this link to report any security vulnerabilities
+
+# Add links to existing issue templates
+issue_templates:
+  - name: Bug report
+    description: Create a report to help us improve
+    template: bug_report.md
+  - name: Feature request
+    description: Suggest an idea for this project
+    template: feature_request.md
+
+# Add a link to an external site for creating pull requests
+pull_request_template:
+  - name: Create a pull request
+    url: https://example.com/pull-request
+    about: Please use this link to create a pull request for this project
