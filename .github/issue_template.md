@@ -3,7 +3,7 @@ If this is a feature request, just delete the template below and describe your p
 If you are reporting a bug/error please fill in the template below.
 
 **1. I'm using EPPlus**
-- [ ] in a commercial business.
+- [ ] in a commercial business and have a commercial license.
 - [ ] in a noncommercial organization
 - [ ] for personal use only
 
@@ -12,7 +12,7 @@ Replace this text with the version number in format Major.Minor.Revision (ex. 6.
 
 **3. Which (if any) spreadsheet application are you using (Excel, LibreOffice, Google Sheets, WPS, etc)?**
 
-**4. .NET version?**
+**4. What platform (Windows, Linux, etc) are you running EPPlus on?**
 
 **5. Describe the issue.**
  
