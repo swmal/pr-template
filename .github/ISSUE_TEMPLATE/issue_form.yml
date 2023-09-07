@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: radio
+  - type: checkboxes
     id: usage
     attributes:
       label: EPPlus usage
@@ -20,13 +20,21 @@ body:
         - label: I use EPPlus in a noncommercial organization
         - label: I use EPPlus for personal use
   - type: input
-    id: contact
+    id: environment
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Environment
+      description: What kind of environment do you run EPPlus in?
+      placeholder: ex. Windows
     validations:
-      required: false
+      required: true
+  - type: input
+    id: eppVersion
+    attributes:
+      label: Epplus version
+      description: What version of EPPlus are you using?
+      placeholder: ex. 6.2.7
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
