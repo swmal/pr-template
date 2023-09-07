@@ -11,14 +11,13 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: checkboxes
-    id: license-type
+    id: terms
     attributes:
-      label: EPPlus usage
-      description: I'm using EPPlus...
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: in a commercial organization and have a commercial license
-        - label: in a noncommercial organization
-        - label: for personal use
+        - label: I agree to follow this project's Code of Conduct
+          required: true
   - type: input
     id: contact
     attributes:
