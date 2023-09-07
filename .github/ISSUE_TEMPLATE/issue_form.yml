@@ -16,7 +16,7 @@ body:
         - Noncommercial
         - Personal use
     validations:
-      - required: true
+      required: true
   - type: input
     id: environment
     attributes:
