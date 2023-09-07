@@ -10,16 +10,26 @@ assignees: ''
 If you are reporting a bug/error please fill in the template below.
 
 **1. I'm using EPPlus**
-- [ ] in a commercial business and have a commercial license.
+- [ ] in a commercial business and have a commercial license (please add an empty support case with a link to this issue in our support portal).
 - [ ] in a noncommercial organization
 - [ ] for personal use only
 
 **2. Which version of EPPlus are you using?**
 Replace this text with the version number in format Major.Minor.Revision (ex. 6.2.7)
 
-**3. Which (if any) spreadsheet application are you using (Excel, LibreOffice, Google Sheets, WPS, etc)?**
+**3. Which (if any) spreadsheet application are you using?**
+- [x] Excel
+- [ ] Google Sheets
+- [ ] Libre Office/Open Office
+- [ ] WPS
+- [ ] Other: ...
 
-**4. What platform (Windows, Linux, etc) are you running EPPlus on?**
+**4. What platform are you running EPPlus on?**
+- [x] Windows
+- [ ] Linux
+- [ ] iOS
+- [ ] Webassembly
+- [ ] Other: ...
 
 **5. Describe the issue.**
  
