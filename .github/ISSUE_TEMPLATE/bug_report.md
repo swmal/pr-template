@@ -19,19 +19,14 @@ Replace this text with the version number in format Major.Minor.Revision (ex. 6.
 
 **3. Which (if any) spreadsheet application are you using?**
 - [x] Excel
-- [ ] Google Sheets
-- [ ] Libre Office/Open Office
-- [ ] WPS
 - [ ] Other: ...
 
-**4. What platform are you running EPPlus on?**
+**4. In what environment are you running EPPlus?**
 - [x] Windows
-- [ ] Linux
-- [ ] iOS
-- [ ] Webassembly
 - [ ] Other: ...
 
 **5. Describe the issue.**
  
 You must provide enough information for us to be able to understand and replicate the issue. 
 The better and more detailed the issue is described the more likely it is that we can fix it.
+A combination of a sample workbook and code that replicates the issue seems to be a winning concept.
