@@ -20,4 +20,4 @@ There are many ways you can contribute to this project, such as:
 
 ## Contact
 
-If you have any questions or comments about this project, you can contact us at [email@example.com](https://github.com/github/docs/blob/main/CONTRIBUTING.md) or join our [Slack channel](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github).
+If you have any questions or comments about this project, you can contact us at [email@example.com](https://github.com/github/docs/blob/main/CONTRIBUTING.md) or join our [Slack channel](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github). 
