@@ -10,6 +10,15 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: license-type
+    attributes:
+       label: EPPlus usage
+      description: I'm using EPPlus...
+      options:
+        - label: in a commercial organization and have a commercial license
+        - label: in a noncommercial organization
+        - label: for personal use
   - type: input
     id: contact
     attributes:
