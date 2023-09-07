@@ -11,9 +11,9 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: checkboxes
-    id: terms
+    id: usage
     attributes:
-      label: Code of Conduct
+      label: EPPlus usage
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
         - label: I agree to follow this project's Code of Conduct
