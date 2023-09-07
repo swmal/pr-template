@@ -6,15 +6,15 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: checkboxes
+  - type: dropdown
     id: usage
     attributes:
       label: EPPlus usage
       description: If you have a commercial license, please log in to our [support portal](https://epplussoftware.com) and create an empty ticket with a reference to this issue.
       options:
-        - label: I use EPPlus in a commercial company and have a commercial license
-        - label: I use EPPlus in a noncommercial organization
-        - label: I use EPPlus for personal use
+        - label: Commercial
+        - label: Noncommercial
+        - label: Personal use
   - type: input
     id: environment
     attributes:
