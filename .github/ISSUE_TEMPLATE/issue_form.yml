@@ -35,36 +35,24 @@ body:
       placeholder: ex. 6.2.7
     validations:
       required: true
-  - type: textarea
-    id: what-happened
+  - type: input
+    id: spreadsheetApp
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: Spreadsheet application
+      description: What kind of spreadsheet application (if any) are you using?
+      placeholder: ex. Excel
+    validations:
+      required: false
+  - type: textarea
+    id: issueDescription
+    attributes:
+      label: Description
+      description: You must provide enough information for us to be able to understand and replicate the issue. The better and more detailed the issue is described the more likely it is that we can fix it. Unit tests or a combination of a sample workbook and code that replicates the issue seems to be a winning concept.
+      placeholder: detailed description of the bug/issue
       value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+  
   - type: textarea
     id: logs
     attributes:
