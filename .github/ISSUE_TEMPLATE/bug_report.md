@@ -1,38 +1,19 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+If you are reporting a bug/error please fill in the template below.
 
+**1. I'm using EPPlus**
+- [ ] in a commercial business and have a commercial license.
+- [ ] in a noncommercial organization
+- [ ] for personal use only
+
+**2. Which version of EPPlus are you using?**
+Replace this text with the version number in format Major.Minor.Revision (ex. 6.2.7)
+
+**3. Which (if any) spreadsheet application are you using (Excel, LibreOffice, Google Sheets, WPS, etc)?**
+
+**4. What platform (Windows, Linux, etc) are you running EPPlus on?**
 ---
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**5. Describe the issue.**
+ 
+You must provide enough information for us to be able to understand and replicate the issue. 
+The better and more detailed the issue is described the more likely it is that we can fix it.
