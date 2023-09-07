@@ -14,10 +14,11 @@ body:
     id: usage
     attributes:
       label: EPPlus usage
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: If you have a commercial license, please log in to our [support portal](https://epplussoftware.com) and create an empty ticket with a reference to this issue.
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - label: I use EPPlus in a commercial company
+        - label: I use EPPlus in a noncommercial organization
+        - label: I use EPPlus for personal use
   - type: input
     id: contact
     attributes:
